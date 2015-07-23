@@ -347,6 +347,7 @@
 
     <string name="username">Username</string>
 
+    <string name="home">Home</string>
     <string name="file_list__footer__folder">1 folder</string>
     <string name="file_list__footer__folders">%1$d folders</string>
     <string name="file_list__footer__file">1 file</string>

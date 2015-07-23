@@ -35,6 +35,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
+import android.os.UserManager;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -400,7 +401,7 @@ public class FileActivity extends ActionBarActivity
      * Assumes that navigation drawer is NOT visible.
      */
     protected void updateActionBarTitleAndHomeButton(OCFile chosenFile) {
-        String title = getString(R.string.default_display_name_for_root_folder);    // default
+        String title = getString(R.string.home);    // default
         boolean inRoot;
 
         /// choose the appropiate title

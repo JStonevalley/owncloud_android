@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App name  and other strings-->
-    <string name="app_name">ownCloud</string>
+    <string name="app_name">DeSyncWire</string>
     <string name="account_type">owncloud</string>	<!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
     <string name="authority">org.owncloud</string>	<!-- better if was the app package with ".provider" appended ; it identifies the provider -->
     <string name ="db_file">owncloud.db</string>
     <string name ="db_name">ownCloud</string>
     <string name ="data_folder">owncloud</string>
     <string name ="log_name">Owncloud_</string>
-    <string name ="default_display_name_for_root_folder">ownCloud</string>
+    <string name ="default_display_name_for_root_folder">DeSyncWire</string>
     <string name ="user_agent">Mozilla/5.0 (Android) ownCloud-android/%1$s</string>
     
     <!-- URLs and flags related -->
@@ -28,14 +28,17 @@
     
     
     <!-- Colors -->
-    <color name="login_background_color">#FFFFFF</color>
-    <color name="login_logo_background_color">#FFFFFF</color>
-    <color name="background_color">#F7F7F7</color>
-    <color name="actionbar_start_color">#1D2D44</color>
-    <color name="actionbar_end_color">#1D2D44</color>
+    <color name="login_background_color">#f9efe2</color>
+    <color name="login_logo_background_color">#f9efe2</color>
+    <color name="background_color">#f9efe2</color>
+    <color name="actionbar_title_text_color">#fbad31</color>
+    <color name="actionbar_start_color">#000000</color>
+    <color name="actionbar_end_color">#000000</color>
     
     <!-- Button -->
     <color name="button_text_color">#000000</color>
+    <color name="button_background_color">#3ba9b9</color>
+    <color name="button_background_pressed_color">#59cbd2</color>
     
     <!-- Multiaccount support -->
     <bool name="multiaccount_support">true</bool>

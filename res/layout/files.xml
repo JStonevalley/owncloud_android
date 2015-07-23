@@ -24,30 +24,57 @@
     android:clickable="true" >
 
     <!-- The main content view -->
-    <LinearLayout
+    <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/background_color"
-        android:baselineAligned="false"
-        android:orientation="horizontal"
-        android:id="@+id/ListLayout"
-        android:contentDescription="@string/list_layout"
-        >
-
-
-        <FrameLayout
-            android:id="@+id/left_fragment_container"
-            android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:background="@color/background_color"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:id="@+id/ListLayout"
+            android:contentDescription="@string/list_layout">
 
-        <FrameLayout
-            android:id="@+id/right_fragment_container"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2" />
-    </LinearLayout>
+            <FrameLayout
+                android:id="@+id/left_fragment_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+            <FrameLayout
+                android:id="@+id/right_fragment_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_upload"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/btn_circle_selector"
+                android:onClick="openUploadDialog"
+                android:src="@drawable/ic_action_upload" />
+
+            <ImageButton
+                android:id="@+id/btn_new_folder"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="104dp"
+                android:background="@drawable/btn_circle_selector"
+                android:onClick="openNewFolderDialog"
+                android:src="@drawable/ic_action_create_dir" />
+    </RelativeLayout>
 
     <include
         layout="@layout/drawer"

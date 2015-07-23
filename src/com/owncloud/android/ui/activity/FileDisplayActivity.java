@@ -1662,6 +1662,18 @@ public class FileDisplayActivity extends HookActivity
         onTransferStateChanged(file, false, false);
     }
 
+    public void openUploadDialog(View view){
+        UploadSourceDialogFragment dialog =
+                UploadSourceDialogFragment.newInstance(getAccount());
+        dialog.show(getSupportFragmentManager(), DIALOG_UPLOAD_SOURCE);
+    }
+
+    public  void openNewFolderDialog(View view){
+        CreateFolderDialogFragment dialog =
+                CreateFolderDialogFragment.newInstance(getCurrentDir());
+        dialog.show(getSupportFragmentManager(), DIALOG_CREATE_FOLDER);
+    }
+
     @Override
     public void onRefresh(boolean ignoreETag) {
         refreshList(ignoreETag);
