@@ -203,16 +203,17 @@
         android:layout_height="wrap_content"
 		android:layout_alignParentBottom="true"
         android:orientation="vertical" >
-        
-		<Button
-		    android:id="@+id/buttonOK"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:layout_gravity="center_horizontal"
-		    android:enabled="false"
-		    android:onClick="onOkClick"
-		    android:text="@string/setup_btn_connect"
-            android:contentDescription="@string/setup_btn_connect"/>
+
+		<com.gc.materialdesign.views.ButtonRectangle
+			android:id="@+id/buttonOK"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="@color/button_background_color"
+			android:enabled="false"
+			android:onClick="onOkClick"
+			android:text="@string/setup_btn_connect"
+			android:contentDescription="@string/setup_btn_connect" />
 		
 		<Button
 		    android:id="@+id/welcome_link"

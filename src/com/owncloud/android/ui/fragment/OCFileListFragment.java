@@ -162,10 +162,10 @@ public class OCFileListFragment extends ExtendedListFragment {
     public int onBrowseUp() {
         OCFile parentDir = null;
         int moveCount = 0;
-        
+
         if(mFile != null){
             FileDataStorageManager storageManager = mContainerActivity.getStorageManager();
-            
+            ((FileDisplayActivity)mContainerActivity).showUploadNewFolderBtns();
             String parentPath = null;
             if (mFile.getParentId() != FileDataStorageManager.ROOT_PARENT_ID) {
                 parentPath = new File(mFile.getRemotePath()).getParent();
@@ -210,8 +210,10 @@ public class OCFileListFragment extends ExtendedListFragment {
                 mContainerActivity.onBrowsedDownTo(file);
                 // save index and top position
                 saveIndexAndTopPosition(position);
+                ((FileDisplayActivity)mContainerActivity).showUploadNewFolderBtns();
                 
             } else { /// Click on a file
+                ((FileDisplayActivity)mContainerActivity).hideUploadNewFolderBtns();
                 if (PreviewImageFragment.canBePreviewed(file)) {
                     // preview image - it handles the download, if needed
                     ((FileDisplayActivity)mContainerActivity).startImagePreview(file);
@@ -480,7 +482,6 @@ public class OCFileListFragment extends ExtendedListFragment {
         }
         return output;
     }
-
 
     public void sortByName(boolean descending) {
         mAdapter.setSortOrder(FileStorageUtils.SORT_NAME, descending);
