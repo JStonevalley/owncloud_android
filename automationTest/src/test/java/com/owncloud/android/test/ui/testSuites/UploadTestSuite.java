@@ -18,7 +18,7 @@
  *
  */
 
-package com.owncloud.android.test.ui.testSuites;
+package com.dewire.desync.test.ui.testSuites;
 
 
 import static org.junit.Assert.*;
@@ -37,21 +37,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import com.owncloud.android.test.ui.actions.Actions;
-import com.owncloud.android.test.ui.groups.FailingTestCategory;
-import com.owncloud.android.test.ui.groups.InProgressCategory;
-import com.owncloud.android.test.ui.groups.NoIgnoreTestCategory;
-import com.owncloud.android.test.ui.groups.SmokeTestCategory;
-import com.owncloud.android.test.ui.groups.UnfinishedTestCategory;
-import com.owncloud.android.test.ui.models.FileDetailsView;
-import com.owncloud.android.test.ui.models.ElementMenuOptions;
-import com.owncloud.android.test.ui.models.GmailEmailListView;
-import com.owncloud.android.test.ui.models.GmailEmailView;
-import com.owncloud.android.test.ui.models.ImageView;
-import com.owncloud.android.test.ui.models.FileListView;
-import com.owncloud.android.test.ui.models.NotificationView;
-import com.owncloud.android.test.ui.models.SettingsView;
-import com.owncloud.android.test.ui.models.UploadView;
+import com.dewire.desync.test.ui.actions.Actions;
+import com.dewire.desync.test.ui.groups.FailingTestCategory;
+import com.dewire.desync.test.ui.groups.InProgressCategory;
+import com.dewire.desync.test.ui.groups.NoIgnoreTestCategory;
+import com.dewire.desync.test.ui.groups.SmokeTestCategory;
+import com.dewire.desync.test.ui.groups.UnfinishedTestCategory;
+import com.dewire.desync.test.ui.models.FileDetailsView;
+import com.dewire.desync.test.ui.models.ElementMenuOptions;
+import com.dewire.desync.test.ui.models.GmailEmailListView;
+import com.dewire.desync.test.ui.models.GmailEmailView;
+import com.dewire.desync.test.ui.models.ImageView;
+import com.dewire.desync.test.ui.models.FileListView;
+import com.dewire.desync.test.ui.models.NotificationView;
+import com.dewire.desync.test.ui.models.SettingsView;
+import com.dewire.desync.test.ui.models.UploadView;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)

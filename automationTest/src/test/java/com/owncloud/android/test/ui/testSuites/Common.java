@@ -18,7 +18,7 @@
  *
  */
 
-package com.owncloud.android.test.ui.testSuites;
+package com.dewire.desync.test.ui.testSuites;
 
 import static org.junit.Assert.*;
 

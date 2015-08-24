@@ -18,7 +18,7 @@
  *
  */
 
-package com.owncloud.android.test.ui.testSuites;
+package com.dewire.desync.test.ui.testSuites;
 
 import static org.junit.Assert.*;
 import io.appium.java_client.android.AndroidDriver;
@@ -32,13 +32,13 @@ import org.junit.runners.MethodSorters;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 
-import com.owncloud.android.test.ui.actions.Actions;
-import com.owncloud.android.test.ui.groups.NoIgnoreTestCategory;
-import com.owncloud.android.test.ui.groups.SmokeTestCategory;
-import com.owncloud.android.test.ui.models.ElementMenuOptions;
-import com.owncloud.android.test.ui.models.FileListView;
-import com.owncloud.android.test.ui.models.MoveView;
-import com.owncloud.android.test.ui.models.WaitAMomentPopUp;
+import com.dewire.desync.test.ui.actions.Actions;
+import com.dewire.desync.test.ui.groups.NoIgnoreTestCategory;
+import com.dewire.desync.test.ui.groups.SmokeTestCategory;
+import com.dewire.desync.test.ui.models.ElementMenuOptions;
+import com.dewire.desync.test.ui.models.FileListView;
+import com.dewire.desync.test.ui.models.MoveView;
+import com.dewire.desync.test.ui.models.WaitAMomentPopUp;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)

@@ -1,7 +1,7 @@
-package com.owncloud.android.test;
+package com.dewire.desync.test;
 
-import com.owncloud.android.db.ProviderMeta.ProviderTableMeta;
-import com.owncloud.android.providers.FileContentProvider;
+import com.dewire.desync.db.ProviderMeta.ProviderTableMeta;
+import com.dewire.desync.providers.FileContentProvider;
 import android.annotation.TargetApi;
 import android.net.Uri;
 import android.os.Build;

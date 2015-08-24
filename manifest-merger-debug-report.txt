@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:20:1
+	package
+		ADDED from AndroidManifest.xml:20:11
+	android:versionName
+		ADDED from AndroidManifest.xml:22:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:21:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:22:33
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from AndroidManifest.xml:27:5
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:28:5
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.1:9:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.4:9:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:9:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:9:5
+	android:name
+		ADDED from AndroidManifest.xml:28:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:22
+uses-permission#android.permission.READ_SYNC_STATS
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:22
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from AndroidManifest.xml:33:5
+	android:name
+		ADDED from AndroidManifest.xml:33:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:36:5
+	android:name
+		ADDED from AndroidManifest.xml:36:22
+uses-sdk
+ADDED from AndroidManifest.xml:38:5
+MERGED from owncloud_android:owncloud-android-library:unspecified:30:5
+MERGED from com.android.support:appcompat-v7:19.1.0:18:5
+MERGED from com.github.navasmdc:MaterialDesign:1.5:7:5
+MERGED from com.android.support:cardview-v7:21.0.3:15:5
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.1:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:23:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.4:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:23:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:23:5
+MERGED from com.crashlytics.sdk.android:beta:1.1.3:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:23:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:7:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:23:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:40:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:39:9
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:42:5
+	android:name
+		ADDED from AndroidManifest.xml:42:22
+application
+ADDED from AndroidManifest.xml:45:5
+MERGED from com.android.support:appcompat-v7:19.1.0:19:5
+MERGED from com.github.navasmdc:MaterialDesign:1.5:11:5
+MERGED from com.android.support:cardview-v7:21.0.3:16:5
+MERGED from com.crashlytics.sdk.android:crashlytics:2.5.1:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:25:5
+MERGED from com.crashlytics.sdk.android:crashlytics-core:2.3.4:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:25:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:25:5
+MERGED from com.crashlytics.sdk.android:beta:1.1.3:9:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:25:5
+MERGED from com.crashlytics.sdk.android:answers:1.3.1:11:5
+MERGED from io.fabric.sdk.android:fabric:1.3.5:25:5
+	android:label
+		ADDED from AndroidManifest.xml:49:9
+	android:icon
+		ADDED from AndroidManifest.xml:47:9
+	android:allowBackup
+		ADDED from com.github.navasmdc:MaterialDesign:1.5:11:18
+	android:theme
+		ADDED from AndroidManifest.xml:50:9
+	android:logo
+		ADDED from AndroidManifest.xml:48:9
+	android:name
+		ADDED from AndroidManifest.xml:46:9
+activity#com.owncloud.android.ui.activity.FileDisplayActivity
+ADDED from AndroidManifest.xml:51:9
+	android:label
+		ADDED from AndroidManifest.xml:53:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:55:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:56:17
+	android:name
+		ADDED from AndroidManifest.xml:56:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:57:17
+	android:name
+		ADDED from AndroidManifest.xml:57:27
+activity#com.owncloud.android.ui.activity.UploadFilesActivity
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#com.owncloud.android.ui.activity.Uploader
+ADDED from AndroidManifest.xml:62:9
+	android:name
+		ADDED from AndroidManifest.xml:62:19
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:63:13
+action#android.intent.action.SEND
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:67:17
+	android:name
+		ADDED from AndroidManifest.xml:67:27
+data
+ADDED from AndroidManifest.xml:70:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:70:23
+intent-filter#android.intent.action.SEND_MULTIPLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:73:13
+action#android.intent.action.SEND_MULTIPLE
+ADDED from AndroidManifest.xml:74:17
+	android:name
+		ADDED from AndroidManifest.xml:74:25
+activity#com.owncloud.android.ui.activity.Preferences
+ADDED from AndroidManifest.xml:85:9
+	android:theme
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+activity#com.owncloud.android.ui.preview.PreviewImageActivity
+ADDED from AndroidManifest.xml:89:9
+	android:name
+		ADDED from AndroidManifest.xml:90:13
+activity#com.owncloud.android.ui.preview.PreviewVideoActivity
+ADDED from AndroidManifest.xml:93:9
+	android:label
+		ADDED from AndroidManifest.xml:95:4
+	android:theme
+		ADDED from AndroidManifest.xml:96:4
+	android:name
+		ADDED from AndroidManifest.xml:94:13
+service#com.owncloud.android.authentication.AccountAuthenticatorService
+ADDED from AndroidManifest.xml:100:9
+	android:exported
+		ADDED from AndroidManifest.xml:102:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from AndroidManifest.xml:103:13
+	android:priority
+		ADDED from AndroidManifest.xml:103:29
+action#android.accounts.AccountAuthenticator
+ADDED from AndroidManifest.xml:104:17
+	android:name
+		ADDED from AndroidManifest.xml:104:25
+meta-data#android.accounts.AccountAuthenticator
+ADDED from AndroidManifest.xml:107:13
+	android:resource
+		ADDED from AndroidManifest.xml:109:17
+	android:name
+		ADDED from AndroidManifest.xml:108:17
+service#com.owncloud.android.syncadapter.FileSyncService
+ADDED from AndroidManifest.xml:111:9
+	android:exported
+		ADDED from AndroidManifest.xml:113:13
+	android:name
+		ADDED from AndroidManifest.xml:112:13
+intent-filter#android.content.SyncAdapter
+ADDED from AndroidManifest.xml:115:13
+action#android.content.SyncAdapter
+ADDED from AndroidManifest.xml:116:17
+	android:name
+		ADDED from AndroidManifest.xml:116:25
+meta-data#android.content.SyncAdapter
+ADDED from AndroidManifest.xml:119:13
+	android:resource
+		ADDED from AndroidManifest.xml:121:17
+	android:name
+		ADDED from AndroidManifest.xml:120:17
+provider#com.owncloud.android.providers.FileContentProvider
+ADDED from AndroidManifest.xml:124:9
+	android:authorities
+		ADDED from AndroidManifest.xml:126:13
+	android:enabled
+		ADDED from AndroidManifest.xml:127:13
+	android:label
+		ADDED from AndroidManifest.xml:129:13
+	android:syncable
+		ADDED from AndroidManifest.xml:130:13
+	android:exported
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:125:13
+activity#com.owncloud.android.authentication.AuthenticatorActivity
+ADDED from AndroidManifest.xml:133:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:137:13
+	android:exported
+		ADDED from AndroidManifest.xml:135:13
+	android:theme
+		ADDED from AndroidManifest.xml:136:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:138:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:139:17
+	android:name
+		ADDED from AndroidManifest.xml:139:25
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:141:17
+	android:name
+		ADDED from AndroidManifest.xml:141:27
+intent-filter#android.intent.category.DEFAULT+com.owncloud.android.workaround.accounts.CREATE
+ADDED from AndroidManifest.xml:144:13
+action#com.owncloud.android.workaround.accounts.CREATE
+ADDED from AndroidManifest.xml:145:17
+	android:name
+		ADDED from AndroidManifest.xml:145:25
+service#com.owncloud.android.services.OperationsService
+ADDED from AndroidManifest.xml:150:9
+	android:name
+		ADDED from AndroidManifest.xml:150:18
+service#com.owncloud.android.files.services.FileDownloader
+ADDED from AndroidManifest.xml:151:9
+	android:name
+		ADDED from AndroidManifest.xml:151:18
+service#com.owncloud.android.files.services.FileUploader
+ADDED from AndroidManifest.xml:152:9
+	android:name
+		ADDED from AndroidManifest.xml:152:18
+service#com.owncloud.android.media.MediaService
+ADDED from AndroidManifest.xml:153:9
+	android:name
+		ADDED from AndroidManifest.xml:153:18
+activity#com.owncloud.android.ui.activity.PassCodeActivity
+ADDED from AndroidManifest.xml:155:9
+	android:name
+		ADDED from AndroidManifest.xml:155:19
+activity#com.owncloud.android.ui.activity.ConflictsResolveActivity
+ADDED from AndroidManifest.xml:156:9
+	android:name
+		ADDED from AndroidManifest.xml:156:19
+activity#com.owncloud.android.ui.activity.GenericExplanationActivity
+ADDED from AndroidManifest.xml:157:9
+	android:name
+		ADDED from AndroidManifest.xml:157:19
+activity#com.owncloud.android.ui.activity.ErrorsWhileCopyingHandlerActivity
+ADDED from AndroidManifest.xml:158:9
+	android:name
+		ADDED from AndroidManifest.xml:158:19
+activity#com.owncloud.android.ui.activity.LogHistoryActivity
+ADDED from AndroidManifest.xml:160:9
+	android:name
+		ADDED from AndroidManifest.xml:160:19
+receiver#com.owncloud.android.files.InstantUploadBroadcastReceiver
+ADDED from AndroidManifest.xml:162:9
+	android:name
+		ADDED from AndroidManifest.xml:162:19
+intent-filter#android.hardware.action.NEW_PICTURE+com.android.camera.NEW_PICTURE
+ADDED from AndroidManifest.xml:163:13
+action#com.android.camera.NEW_PICTURE
+ADDED from AndroidManifest.xml:165:17
+	android:name
+		ADDED from AndroidManifest.xml:165:25
+action#android.hardware.action.NEW_PICTURE
+ADDED from AndroidManifest.xml:167:17
+	android:name
+		ADDED from AndroidManifest.xml:167:25
+intent-filter#android.hardware.action.NEW_VIDEO
+ADDED from AndroidManifest.xml:170:13
+action#android.hardware.action.NEW_VIDEO
+ADDED from AndroidManifest.xml:171:17
+	android:name
+		ADDED from AndroidManifest.xml:171:25
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:174:13
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:175:17
+	android:name
+		ADDED from AndroidManifest.xml:175:25
+receiver#com.owncloud.android.files.BootupBroadcastReceiver
+ADDED from AndroidManifest.xml:178:9
+	android:name
+		ADDED from AndroidManifest.xml:178:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:179:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:180:17
+	android:name
+		ADDED from AndroidManifest.xml:180:25
+service#com.owncloud.android.services.observer.FileObserverService
+ADDED from AndroidManifest.xml:183:9
+	android:name
+		ADDED from AndroidManifest.xml:183:18
+activity#com.owncloud.android.ui.activity.CopyToClipboardActivity
+ADDED from AndroidManifest.xml:185:3
+	android:label
+		ADDED from AndroidManifest.xml:187:4
+	android:icon
+		ADDED from AndroidManifest.xml:188:4
+	android:name
+		ADDED from AndroidManifest.xml:186:4
+activity#com.owncloud.android.ui.activity.FolderPickerActivity
+ADDED from AndroidManifest.xml:190:9
+	android:label
+		ADDED from AndroidManifest.xml:192:4
+	android:name
+		ADDED from AndroidManifest.xml:191:4
+activity#com.owncloud.android.ui.activity.UploadPathActivity
+ADDED from AndroidManifest.xml:194:9
+	android:label
+		ADDED from AndroidManifest.xml:196:4
+	android:name
+		ADDED from AndroidManifest.xml:195:4
+meta-data#io.fabric.ApiKey
+ADDED from AndroidManifest.xml:198:9
+	android:value
+		ADDED from AndroidManifest.xml:200:13
+	android:name
+		ADDED from AndroidManifest.xml:199:13

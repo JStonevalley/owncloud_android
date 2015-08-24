@@ -18,7 +18,7 @@
  *
  */
 
-package com.owncloud.android.test.ui.groups;
+package com.dewire.desync.test.ui.groups;
 
 public interface UnfinishedTestCategory extends IgnoreTestCategory{
 
