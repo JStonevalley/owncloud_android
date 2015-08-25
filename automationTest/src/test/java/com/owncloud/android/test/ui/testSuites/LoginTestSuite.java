@@ -18,7 +18,7 @@
  *
  */
 
-package com.owncloud.android.test.ui.testSuites;
+package com.dewire.desync.test.ui.testSuites;
 
 import static org.junit.Assert.*;
 import io.appium.java_client.android.AndroidDriver;
@@ -33,12 +33,12 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.openqa.selenium.ScreenOrientation;
 
-import com.owncloud.android.test.ui.actions.Actions;
-import com.owncloud.android.test.ui.groups.*;
-import com.owncloud.android.test.ui.models.LoginForm;
-import com.owncloud.android.test.ui.models.FileListView;
-import com.owncloud.android.test.ui.models.MenuList;
-import com.owncloud.android.test.ui.models.SettingsView;
+import com.dewire.desync.test.ui.actions.Actions;
+import com.dewire.desync.test.ui.groups.*;
+import com.dewire.desync.test.ui.models.LoginForm;
+import com.dewire.desync.test.ui.models.FileListView;
+import com.dewire.desync.test.ui.models.MenuList;
+import com.dewire.desync.test.ui.models.SettingsView;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class LoginTestSuite{
@@ -173,7 +173,7 @@ public class LoginTestSuite{
 	@After
 	public void tearDown() throws Exception {
 		common.takeScreenShotOnFailed(name.getMethodName());
-		driver.removeApp("com.owncloud.android");
+		driver.removeApp("com.dewire.desync");
 		driver.quit();
 	}
 	

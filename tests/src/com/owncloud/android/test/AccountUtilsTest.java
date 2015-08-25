@@ -18,10 +18,10 @@
  *
  */
 
-package com.owncloud.android.test;
+package com.dewire.desync.test;
 
-import com.owncloud.android.lib.common.accounts.AccountUtils;
-import com.owncloud.android.lib.resources.status.OwnCloudVersion;
+import com.dewire.desync.lib.common.accounts.AccountUtils;
+import com.dewire.desync.lib.resources.status.OwnCloudVersion;
 
 import android.test.AndroidTestCase;
 

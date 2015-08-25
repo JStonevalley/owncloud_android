@@ -1,4 +1,4 @@
-package com.owncloud.android.test.ui.groups;
+package com.dewire.desync.test.ui.groups;
 
 import java.io.File;
 import java.io.IOException;

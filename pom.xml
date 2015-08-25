@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.owncloud.android</groupId>
+    <groupId>com.dewire.desync</groupId>
     <artifactId>owncloud</artifactId>
     <version>${owncloud.version}</version>
     <packaging>apk</packaging>
@@ -93,7 +93,7 @@
 
         <!-- MUST BE INSTALLED FIRST: cd owncloud-android-library; mvn install -->
         <dependency>
-            <groupId>com.owncloud.android</groupId>
+            <groupId>com.dewire.desync</groupId>
             <artifactId>owncloud-android-library</artifactId>
             <version>${owncloud.version}</version>
         </dependency>
