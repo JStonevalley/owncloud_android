@@ -76,7 +76,7 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_gravity="bottom"
-				android:hint="@string/auth_host_url"
+                android:text="@string/auth_server_url"
 				android:inputType="textUri"
 				android:drawablePadding="5dp"
 				android:paddingRight="55dp"
