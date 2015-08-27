@@ -112,7 +112,7 @@ public class PassCodeActivity extends ActionBarActivity {
                 //mPassCodeHdr.setText(R.string.pass_code_enter_pass_code);
                 // TODO choose a header, check iOS
                 mPassCodeHdrExplanation.setVisibility(View.VISIBLE);
-                setCancelButtonEnabled(true);
+                setCancelButtonEnabled(false);
             }
 
         } else if (ACTION_DISABLE.equals(getIntent().getAction())) {
