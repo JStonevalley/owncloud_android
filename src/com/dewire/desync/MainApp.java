@@ -39,7 +39,7 @@ import com.dewire.desync.lib.common.utils.Log_OC;
 
 /**
  * Main Application of the project
- * 
+ * A
  * Contains methods to build the "static" strings. These strings were before constants in different
  * classes
  */
