@@ -79,6 +79,16 @@ public class PassCodeManager {
             activity.startActivity(i);
 
         }
+        if (!sExemptOfPasscodeActivites.contains(activity.getClass()) &&
+                !passCodeIsEnabled()
+                ){
+
+            Intent i = new Intent(MainApp.getAppContext(), PassCodeActivity.class);
+            i.setAction(PassCodeActivity.ACTION_ENABLE);
+            i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+            activity.startActivity(i);
+
+        }
 
         //Force user to put a password at first launch
 //        else if (!sExemptOfPasscodeActivites.contains(activity.getClass()) &&
