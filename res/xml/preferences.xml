@@ -20,13 +20,9 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     <PreferenceCategory android:title="@string/prefs_category_accounts" android:key="accounts_category">
     </PreferenceCategory>
-    
+    <!-- THis setting is disabled in dewire version -->
 	<PreferenceCategory android:title="@string/prefs_category_security">
-<<<<<<< HEAD
 	    <android.preference.CheckBoxPreference android:title="@string/prefs_passcode" android:key="set_pincode" android:enabled="false" />
-=======
-	    <android.preference.CheckBoxPreference android:title="@string/prefs_passcode" android:key="set_pincode" android:enabled="false"/>
->>>>>>> origin/desync_develop
 	</PreferenceCategory>
 
     <PreferenceCategory android:title="@string/prefs_category_instant_uploading" android:key="instant_uploading_category">
