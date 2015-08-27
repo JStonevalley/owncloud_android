@@ -29,11 +29,11 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 
 import com.dewire.desync.datamodel.FileDataStorageManager;
-import com.dewire.desync.lib.common.accounts.AccountUtils;
-import com.dewire.desync.lib.common.accounts.AccountUtils.AccountNotFoundException;
-import com.dewire.desync.lib.common.OwnCloudAccount;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.OwnCloudClientManagerFactory;
+import com.owncloud.android.lib.common.accounts.AccountUtils;
+import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundException;
+import com.owncloud.android.lib.common.OwnCloudAccount;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

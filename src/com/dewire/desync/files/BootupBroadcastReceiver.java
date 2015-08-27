@@ -21,7 +21,7 @@
 
 package com.dewire.desync.files;
 
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.services.observer.FileObserverService;
 
 import android.content.BroadcastReceiver;

@@ -22,7 +22,7 @@ package com.dewire.desync.media;
 
 
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.media.MediaService.State;
 
 import android.accounts.Account;

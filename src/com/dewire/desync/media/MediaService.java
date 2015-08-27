@@ -42,7 +42,7 @@ import java.io.IOException;
 
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.activity.FileActivity;
 import com.dewire.desync.ui.activity.FileDisplayActivity;
 

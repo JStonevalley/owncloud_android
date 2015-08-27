@@ -63,16 +63,16 @@ import com.dewire.desync.files.services.FileDownloader;
 import com.dewire.desync.files.services.FileDownloader.FileDownloaderBinder;
 import com.dewire.desync.files.services.FileUploader;
 import com.dewire.desync.files.services.FileUploader.FileUploaderBinder;
-import com.dewire.desync.lib.common.OwnCloudAccount;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.OwnCloudClientManagerFactory;
-import com.dewire.desync.lib.common.OwnCloudCredentials;
-import com.dewire.desync.lib.common.accounts.AccountUtils.AccountNotFoundException;
-import com.dewire.desync.lib.common.network.CertificateCombinedException;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.OwnCloudAccount;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;
+import com.owncloud.android.lib.common.OwnCloudCredentials;
+import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundException;
+import com.owncloud.android.lib.common.network.CertificateCombinedException;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.operations.CreateFolderOperation;
 import com.dewire.desync.operations.CreateShareOperation;
 import com.dewire.desync.operations.MoveFileOperation;
@@ -209,6 +209,16 @@ public class FileDisplayActivity extends HookActivity
         Log_OC.v(TAG, "onStart() start");
         super.onStart();
         getSupportActionBar().setIcon(DisplayUtils.getSeasonalIconId());
+
+        //Force set passcode
+        SharedPreferences appPrefs = PreferenceManager.getDefaultSharedPreferences(MainApp.getAppContext());
+        if (!appPrefs.getBoolean("set_pincode", false)) {
+            Intent i = new Intent(MainApp.getAppContext(), PassCodeActivity.class);
+            i.setAction(PassCodeActivity.ACTION_ENABLE);
+            i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+            startActivity(i);
+        }
+
         Log_OC.v(TAG, "onStart() end");
     }
 

@@ -22,7 +22,7 @@ package com.dewire.desync.ui.dialog;
 
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.resources.files.FileUtils;
+import com.owncloud.android.lib.resources.files.FileUtils;
 import com.dewire.desync.ui.activity.ComponentsGetter;
 
 import android.app.AlertDialog;

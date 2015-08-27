@@ -45,7 +45,7 @@ import android.widget.Toast;
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.FileDataStorageManager;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import com.dewire.desync.ui.dialog.IndeterminateProgressDialog;
 import com.dewire.desync.utils.FileStorageUtils;

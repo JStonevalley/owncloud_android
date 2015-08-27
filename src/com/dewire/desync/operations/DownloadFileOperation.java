@@ -28,13 +28,13 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.network.OnDatatransferProgressListener;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.operations.OperationCancelledException;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.files.DownloadRemoteFileOperation;
+import com.owncloud.android.lib.common.network.OnDatatransferProgressListener;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.operations.OperationCancelledException;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.files.DownloadRemoteFileOperation;
 import com.dewire.desync.utils.FileStorageUtils;
 
 import android.accounts.Account;

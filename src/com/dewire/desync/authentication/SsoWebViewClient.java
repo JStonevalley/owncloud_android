@@ -27,8 +27,8 @@ import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 
-import com.dewire.desync.lib.common.network.NetworkUtils;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.network.NetworkUtils;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -24,7 +24,7 @@ import android.accounts.Account;
 import android.util.Pair;
 
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import java.io.File;
 import java.util.HashSet;

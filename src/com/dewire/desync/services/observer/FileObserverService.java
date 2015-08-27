@@ -40,7 +40,7 @@ import com.dewire.desync.authentication.AccountUtils;
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.db.ProviderMeta.ProviderTableMeta;
 import com.dewire.desync.files.services.FileDownloader;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.operations.SynchronizeFileOperation;
 import com.dewire.desync.utils.FileStorageUtils;
 

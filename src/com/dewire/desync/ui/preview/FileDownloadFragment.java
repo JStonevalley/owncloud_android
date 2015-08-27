@@ -36,8 +36,8 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.dewire.desync.lib.common.network.OnDatatransferProgressListener;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.network.OnDatatransferProgressListener;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 
 /**

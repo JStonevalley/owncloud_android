@@ -32,14 +32,14 @@ import com.dewire.desync.BuildConfig;
 import com.dewire.desync.R;
 import com.dewire.desync.authentication.PassCodeManager;
 import com.dewire.desync.datamodel.ThumbnailsCacheManager;
-import com.dewire.desync.lib.common.OwnCloudClientManagerFactory;
-import com.dewire.desync.lib.common.OwnCloudClientManagerFactory.Policy;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;
+import com.owncloud.android.lib.common.OwnCloudClientManagerFactory.Policy;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 
 /**
  * Main Application of the project
- * A
+ *
  * Contains methods to build the "static" strings. These strings were before constants in different
  * classes
  */

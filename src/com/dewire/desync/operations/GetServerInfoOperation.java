@@ -24,13 +24,13 @@ package com.dewire.desync.operations;
 import java.util.ArrayList;
 
 import com.dewire.desync.authentication.AccountUtils;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.status.GetRemoteStatusOperation;
-import com.dewire.desync.lib.resources.status.OwnCloudVersion;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.status.GetRemoteStatusOperation;
+import com.owncloud.android.lib.resources.status.OwnCloudVersion;
 import com.dewire.desync.operations.DetectAuthenticationMethodOperation.AuthenticationMethod;
 
 import android.content.Context;

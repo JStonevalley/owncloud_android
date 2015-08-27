@@ -21,7 +21,7 @@
 package com.dewire.desync.ui.adapter;
 
 import com.dewire.desync.R;
-import com.dewire.desync.lib.common.network.CertificateCombinedException;
+import com.owncloud.android.lib.common.network.CertificateCombinedException;
 import com.dewire.desync.ui.dialog.SslUntrustedCertDialog;
 
 import android.view.View;

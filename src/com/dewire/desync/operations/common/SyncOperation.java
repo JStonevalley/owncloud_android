@@ -21,10 +21,10 @@
 package com.dewire.desync.operations.common;
 
 import com.dewire.desync.datamodel.FileDataStorageManager;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.operations.OnRemoteOperationListener;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.operations.OnRemoteOperationListener;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
 
 import android.content.Context;
 import android.os.Handler;

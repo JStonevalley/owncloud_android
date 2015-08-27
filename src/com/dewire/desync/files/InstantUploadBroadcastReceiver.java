@@ -26,7 +26,7 @@ import com.dewire.desync.MainApp;
 import com.dewire.desync.authentication.AccountUtils;
 import com.dewire.desync.db.DbHandler;
 import com.dewire.desync.files.services.FileUploader;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.utils.FileStorageUtils;
 
 

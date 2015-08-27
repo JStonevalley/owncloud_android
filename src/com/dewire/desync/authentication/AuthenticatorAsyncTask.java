@@ -24,12 +24,12 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
 
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.OwnCloudClientFactory;
-import com.dewire.desync.lib.common.OwnCloudCredentials;
-import com.dewire.desync.lib.common.network.RedirectionPath;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.resources.files.ExistenceCheckRemoteOperation;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.OwnCloudClientFactory;
+import com.owncloud.android.lib.common.OwnCloudCredentials;
+import com.owncloud.android.lib.common.network.RedirectionPath;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.resources.files.ExistenceCheckRemoteOperation;
 
 import java.lang.ref.WeakReference;
 

@@ -26,13 +26,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.dewire.desync.authentication.AccountUtils;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.accounts.AccountUtils.Constants;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.status.OwnCloudVersion;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.accounts.AccountUtils.Constants;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.status.OwnCloudVersion;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

@@ -30,7 +30,7 @@ import third_parties.daveKoeller.AlphanumComparator;
 import com.dewire.desync.MainApp;
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.resources.files.RemoteFile;
+import com.owncloud.android.lib.resources.files.RemoteFile;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

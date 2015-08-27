@@ -24,7 +24,7 @@ package com.dewire.desync.ui.activity;
 
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.files.services.FileUploader;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.dialog.ConflictsResolveDialog;
 import com.dewire.desync.ui.dialog.ConflictsResolveDialog.Decision;
 import com.dewire.desync.ui.dialog.ConflictsResolveDialog.OnConflictDecisionMadeListener;

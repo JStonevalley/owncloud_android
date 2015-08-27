@@ -30,15 +30,15 @@ import android.content.Intent;
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.FileDataStorageManager;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.resources.shares.OCShare;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.shares.GetRemoteSharesForFileOperation;
-import com.dewire.desync.lib.resources.shares.ShareType;
-import com.dewire.desync.lib.resources.shares.CreateRemoteShareOperation;
-import com.dewire.desync.lib.resources.files.FileUtils;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.resources.shares.OCShare;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.shares.GetRemoteSharesForFileOperation;
+import com.owncloud.android.lib.resources.shares.ShareType;
+import com.owncloud.android.lib.resources.shares.CreateRemoteShareOperation;
+import com.owncloud.android.lib.resources.files.FileUtils;
 import com.dewire.desync.operations.common.SyncOperation;
 
 public class CreateShareOperation extends SyncOperation {

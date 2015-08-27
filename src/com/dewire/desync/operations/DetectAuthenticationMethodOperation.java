@@ -22,13 +22,13 @@ package com.dewire.desync.operations;
 
 import java.util.ArrayList;
 
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.operations.OnRemoteOperationListener;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.files.ExistenceCheckRemoteOperation;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.operations.OnRemoteOperationListener;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.files.ExistenceCheckRemoteOperation;
 
 import android.content.Context;
 import android.net.Uri;

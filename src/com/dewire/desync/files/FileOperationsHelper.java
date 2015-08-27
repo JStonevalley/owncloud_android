@@ -36,9 +36,9 @@ import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.files.services.FileDownloader.FileDownloaderBinder;
 import com.dewire.desync.files.services.FileUploader.FileUploaderBinder;
 
-import com.dewire.desync.lib.common.network.WebdavUtils;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.status.OwnCloudVersion;
+import com.owncloud.android.lib.common.network.WebdavUtils;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.status.OwnCloudVersion;
 import com.dewire.desync.services.OperationsService;
 import com.dewire.desync.ui.activity.FileActivity;
 import com.dewire.desync.ui.dialog.ShareLinkToDialog;

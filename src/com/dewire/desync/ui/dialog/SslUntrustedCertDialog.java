@@ -38,9 +38,9 @@ import android.webkit.SslErrorHandler;
 import android.widget.Button;
 
 import com.dewire.desync.R;
-import com.dewire.desync.lib.common.network.CertificateCombinedException;
-import com.dewire.desync.lib.common.network.NetworkUtils;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.network.CertificateCombinedException;
+import com.owncloud.android.lib.common.network.NetworkUtils;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.adapter.CertificateCombinedExceptionViewAdapter;
 import com.dewire.desync.ui.adapter.SslCertificateViewAdapter;
 import com.dewire.desync.ui.adapter.SslErrorViewAdapter;

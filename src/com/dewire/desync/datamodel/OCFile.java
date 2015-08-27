@@ -23,7 +23,7 @@ package com.dewire.desync.datamodel;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.utils.FileStorageUtils;
 
 import java.io.File;

@@ -34,11 +34,11 @@ import com.dewire.desync.R;
 import com.dewire.desync.authentication.AuthenticatorActivity;
 import com.dewire.desync.datamodel.FileDataStorageManager;
 import com.dewire.desync.datamodel.OCFile;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
 import com.dewire.desync.operations.RefreshFolderOperation;
 import com.dewire.desync.operations.UpdateOCVersionOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.activity.ErrorsWhileCopyingHandlerActivity;
 
 import android.accounts.Account;

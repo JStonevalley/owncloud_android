@@ -23,7 +23,7 @@ import android.content.ContentResolver;
 import android.net.Uri;
 import android.os.AsyncTask;
 
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import java.io.File;
 import java.io.FileOutputStream;

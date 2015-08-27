@@ -38,9 +38,9 @@ import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-import com.dewire.desync.lib.common.accounts.AccountUtils;
-import com.dewire.desync.lib.common.accounts.AccountUtils.AccountNotFoundException;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.accounts.AccountUtils;
+import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundException;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 /**
  *  Activity implementing a basic video player.

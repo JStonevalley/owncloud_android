@@ -21,7 +21,7 @@
 package com.dewire.desync.db;
 
 import com.dewire.desync.MainApp;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import android.content.ContentValues;
 import android.content.Context;

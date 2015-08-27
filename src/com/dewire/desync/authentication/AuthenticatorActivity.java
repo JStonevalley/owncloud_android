@@ -68,19 +68,20 @@ import android.widget.Toast;
 import com.dewire.desync.MainApp;
 import com.dewire.desync.R;
 import com.dewire.desync.authentication.SsoWebViewClient.SsoWebViewClientListener;
-import com.dewire.desync.lib.common.OwnCloudCredentials;
-import com.dewire.desync.lib.common.OwnCloudCredentialsFactory;
-import com.dewire.desync.lib.common.accounts.AccountTypeUtils;
-import com.dewire.desync.lib.common.accounts.AccountUtils.AccountNotFoundException;
-import com.dewire.desync.lib.common.accounts.AccountUtils.Constants;
-import com.dewire.desync.lib.common.network.CertificateCombinedException;
-import com.dewire.desync.lib.common.operations.OnRemoteOperationListener;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.status.OwnCloudVersion;
-import com.dewire.desync.lib.resources.users.GetRemoteUserNameOperation;
+import com.dewire.desync.ui.activity.PassCodeActivity;
+import com.owncloud.android.lib.common.OwnCloudCredentials;
+import com.owncloud.android.lib.common.OwnCloudCredentialsFactory;
+import com.owncloud.android.lib.common.accounts.AccountTypeUtils;
+import com.owncloud.android.lib.common.accounts.AccountUtils.AccountNotFoundException;
+import com.owncloud.android.lib.common.accounts.AccountUtils.Constants;
+import com.owncloud.android.lib.common.network.CertificateCombinedException;
+import com.owncloud.android.lib.common.operations.OnRemoteOperationListener;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.status.OwnCloudVersion;
+import com.owncloud.android.lib.resources.users.GetRemoteUserNameOperation;
 import com.dewire.desync.operations.DetectAuthenticationMethodOperation.AuthenticationMethod;
 import com.dewire.desync.operations.GetServerInfoOperation;
 import com.dewire.desync.operations.OAuth2GetAccessToken;
@@ -1478,7 +1479,7 @@ public class AuthenticatorActivity extends AccountAuthenticatorActivity
         if (isOAuth) {
             username = "OAuth_user" + (new java.util.Random(System.currentTimeMillis())).nextLong();
         }
-        String accountName = com.dewire.desync.lib.common.accounts.AccountUtils.
+        String accountName = com.owncloud.android.lib.common.accounts.AccountUtils.
                 buildAccountName(uri, username);
         Account newAccount = new Account(accountName, MainApp.getAccountType());
         if (AccountUtils.exists(newAccount, getApplicationContext())) {

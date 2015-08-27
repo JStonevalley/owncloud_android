@@ -33,7 +33,7 @@ import android.graphics.BitmapFactory;
 
 import com.jakewharton.disklrucache.DiskLruCache;
 import com.dewire.desync.BuildConfig;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 public class DiskLruImageCache {
 

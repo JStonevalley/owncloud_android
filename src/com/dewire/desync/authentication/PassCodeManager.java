@@ -36,7 +36,7 @@ import java.util.Set;
 public class PassCodeManager {
 
     private static final Set<Class> sExemptOfPasscodeActivites;
-
+    private boolean first = true;
     static {
         sExemptOfPasscodeActivites = new HashSet<Class>();
         sExemptOfPasscodeActivites.add(PassCodeActivity.class);
@@ -80,6 +80,16 @@ public class PassCodeManager {
 
         }
 
+        //Force user to put a password at first launch
+//        else if (!sExemptOfPasscodeActivites.contains(activity.getClass()) &&
+//                !passCodeShouldBeRequested() && (activity instanceof AuthenticatorActivity)
+//                ){
+//            Intent i = new Intent(MainApp.getAppContext(), PassCodeActivity.class);
+//            i.setAction(PassCodeActivity.ACTION_ENABLE);
+//            i.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+//            activity.startActivity(i);
+//        }
+
         mVisibleActivitiesCounter++;    // keep it AFTER passCodeShouldBeRequested was checked
     }
 
@@ -109,7 +119,8 @@ public class PassCodeManager {
 
     private boolean passCodeIsEnabled() {
         SharedPreferences appPrefs = PreferenceManager.getDefaultSharedPreferences(MainApp.getAppContext());
-        return (appPrefs.getBoolean("set_pincode", false));
+        boolean passCodeEnabled = appPrefs.getBoolean("set_pincode", false);
+        return passCodeEnabled;
     }
 
 }

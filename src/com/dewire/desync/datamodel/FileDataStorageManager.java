@@ -44,10 +44,10 @@ import android.provider.MediaStore;
 
 import com.dewire.desync.MainApp;
 import com.dewire.desync.db.ProviderMeta.ProviderTableMeta;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.files.FileUtils;
-import com.dewire.desync.lib.resources.shares.OCShare;
-import com.dewire.desync.lib.resources.shares.ShareType;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.files.FileUtils;
+import com.owncloud.android.lib.resources.shares.OCShare;
+import com.owncloud.android.lib.resources.shares.ShareType;
 import com.dewire.desync.utils.FileStorageUtils;
 
 public class FileDataStorageManager {

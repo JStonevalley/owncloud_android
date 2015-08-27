@@ -25,12 +25,12 @@ package com.dewire.desync.operations;
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.files.services.FileDownloader;
 import com.dewire.desync.files.services.FileUploader;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.resources.files.RemoteFile;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.files.ReadRemoteFileOperation;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.resources.files.RemoteFile;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.files.ReadRemoteFileOperation;
 import com.dewire.desync.operations.common.SyncOperation;
 import com.dewire.desync.utils.FileStorageUtils;
 

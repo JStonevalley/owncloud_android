@@ -29,9 +29,9 @@ import org.apache.commons.httpclient.ConnectTimeoutException;
 import android.content.res.Resources;
 
 import com.dewire.desync.R;
-import com.dewire.desync.lib.common.operations.RemoteOperation;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult.ResultCode;
+import com.owncloud.android.lib.common.operations.RemoteOperation;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult.ResultCode;
 import com.dewire.desync.operations.CreateFolderOperation;
 import com.dewire.desync.operations.CreateShareOperation;
 import com.dewire.desync.operations.DownloadFileOperation;

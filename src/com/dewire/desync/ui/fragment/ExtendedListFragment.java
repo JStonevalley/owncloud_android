@@ -38,7 +38,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.dewire.desync.R;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.ExtendedListView;
 import com.dewire.desync.ui.activity.OnEnforceableRefreshListener;
 import com.dewire.desync.ui.adapter.FileListListAdapter;

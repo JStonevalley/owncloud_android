@@ -31,9 +31,9 @@ import com.dewire.desync.R;
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.db.ProviderMeta;
 import com.dewire.desync.db.ProviderMeta.ProviderTableMeta;
-import com.dewire.desync.lib.common.accounts.AccountUtils;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.shares.ShareType;
+import com.owncloud.android.lib.common.accounts.AccountUtils;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.shares.ShareType;
 import com.dewire.desync.utils.FileStorageUtils;
 
 import android.accounts.Account;

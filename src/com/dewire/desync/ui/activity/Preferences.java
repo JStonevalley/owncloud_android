@@ -67,7 +67,7 @@ import com.dewire.desync.db.DbHandler;
 import com.dewire.desync.files.FileOperationsHelper;
 import com.dewire.desync.files.services.FileDownloader;
 import com.dewire.desync.files.services.FileUploader;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.services.OperationsService;
 import com.dewire.desync.ui.RadioButtonPreference;
 import com.dewire.desync.utils.DisplayUtils;

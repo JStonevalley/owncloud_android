@@ -43,7 +43,7 @@ import android.widget.TextView;
 import com.dewire.desync.R;
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.files.FileMenuFilter;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.ui.dialog.ConfirmationDialogFragment;
 import com.dewire.desync.ui.dialog.RemoveFileDialogFragment;
 import com.dewire.desync.ui.fragment.FileFragment;

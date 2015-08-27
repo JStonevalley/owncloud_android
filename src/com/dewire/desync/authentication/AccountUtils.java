@@ -23,10 +23,10 @@ package com.dewire.desync.authentication;
 import java.util.Locale;
 
 import com.dewire.desync.MainApp;
-import com.dewire.desync.lib.common.accounts.AccountTypeUtils;
-import com.dewire.desync.lib.common.accounts.AccountUtils.Constants;
-import com.dewire.desync.lib.common.utils.Log_OC;
-import com.dewire.desync.lib.resources.status.OwnCloudVersion;
+import com.owncloud.android.lib.common.accounts.AccountTypeUtils;
+import com.owncloud.android.lib.common.accounts.AccountUtils.Constants;
+import com.owncloud.android.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.resources.status.OwnCloudVersion;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -179,7 +179,7 @@ public class AccountUtils {
                     // build new account name
                     serverUrl = accountMgr.getUserData(account, Constants.KEY_OC_BASE_URL);
                     username = account.name.substring(0, account.name.lastIndexOf('@'));
-                    newAccountName = com.dewire.desync.lib.common.accounts.AccountUtils.
+                    newAccountName = com.owncloud.android.lib.common.accounts.AccountUtils.
                             buildAccountName(Uri.parse(serverUrl), username);
 
                     // migrate to a new account, if needed

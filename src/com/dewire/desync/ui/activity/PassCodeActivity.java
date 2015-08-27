@@ -40,7 +40,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dewire.desync.R;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.utils.DisplayUtils;
 
 public class PassCodeActivity extends ActionBarActivity {
@@ -112,7 +112,7 @@ public class PassCodeActivity extends ActionBarActivity {
                 //mPassCodeHdr.setText(R.string.pass_code_enter_pass_code);
                 // TODO choose a header, check iOS
                 mPassCodeHdrExplanation.setVisibility(View.VISIBLE);
-                setCancelButtonEnabled(true);
+                setCancelButtonEnabled(false);
             }
 
         } else if (ACTION_DISABLE.equals(getIntent().getAction())) {
@@ -281,7 +281,6 @@ public class PassCodeActivity extends ActionBarActivity {
         });
 
     } // end setTextListener
-
 
     /**
      * Processes the pass code entered by the user just after the last digit was in.
@@ -458,7 +457,7 @@ public class PassCodeActivity extends ActionBarActivity {
                 .getDefaultSharedPreferences(getApplicationContext());
 
         boolean state = appPrefs.getBoolean("set_pincode", false);
-        appPrefsE.putBoolean("set_pincode", !state);
+        //appPrefsE.putBoolean("set_pincode", !state);
         // TODO WIP: this is reverting the value of the preference because it was changed BEFORE
         // entering
         // TODO         in this activity; was the PreferenceCheckBox in the caller who did it

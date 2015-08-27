@@ -31,11 +31,11 @@ import com.dewire.desync.datamodel.FileDataStorageManager;
 import com.dewire.desync.datamodel.OCFile;
 import com.dewire.desync.files.services.FileDownloader;
 import com.dewire.desync.files.services.IndexedForest;
-import com.dewire.desync.lib.common.OwnCloudAccount;
-import com.dewire.desync.lib.common.OwnCloudClient;
-import com.dewire.desync.lib.common.OwnCloudClientManagerFactory;
-import com.dewire.desync.lib.common.operations.RemoteOperationResult;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.OwnCloudAccount;
+import com.owncloud.android.lib.common.OwnCloudClient;
+import com.owncloud.android.lib.common.OwnCloudClientManagerFactory;
+import com.owncloud.android.lib.common.operations.RemoteOperationResult;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.dewire.desync.operations.SynchronizeFolderOperation;
 import com.dewire.desync.utils.FileStorageUtils;
 

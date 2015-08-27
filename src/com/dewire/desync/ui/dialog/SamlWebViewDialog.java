@@ -43,7 +43,7 @@ import com.dewire.desync.MainApp;
 import com.dewire.desync.R;
 import com.dewire.desync.authentication.SsoWebViewClient;
 import com.dewire.desync.authentication.SsoWebViewClient.SsoWebViewClientListener;
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 
 /**

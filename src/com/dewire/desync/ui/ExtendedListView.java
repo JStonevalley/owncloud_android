@@ -26,7 +26,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.ListView;
 
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 /**
  * ListView allowing to specify the position of an item that should be centered in the visible area, if possible.

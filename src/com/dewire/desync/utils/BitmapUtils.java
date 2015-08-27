@@ -19,7 +19,7 @@
  */
 package com.dewire.desync.utils;
 
-import com.dewire.desync.lib.common.utils.Log_OC;
+import com.owncloud.android.lib.common.utils.Log_OC;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
